@@ -1,0 +1,53 @@
+{
+  "enabled": true,
+  "name": "litecoin",
+  "coin": "litecoin.json",
+  
+  "address": "your-litecoin-address-here",
+  
+  "rewardRecipients": {
+    "your-fee-address": 1.0
+  },
+  
+  "paymentProcessing": {
+    "enabled": true,
+    "interval": 30,
+    "minimumPayment": 0.1,
+    "daemon": {
+      "host": "127.0.0.1",
+      "port": 9332,
+      "user": "litecoinrpc",
+      "password": "your-rpc-password"
+    }
+  },
+  
+  "ports": {
+    "3032": {
+      "diff": 32,
+      "varDiff": {
+        "minDiff": 8,
+        "maxDiff": 512,
+        "targetTime": 15,
+        "retargetTime": 90,
+        "variancePercent": 30
+      }
+    }
+  },
+  
+  "daemons": [
+    {
+      "host": "127.0.0.1",
+      "port": 9332,
+      "user": "litecoinrpc",
+      "password": "your-rpc-password"
+    }
+  ],
+  
+  "confirmations": 100,
+  "banning": {
+    "enabled": true,
+    "time": 600,
+    "invalidPercent": 50,
+    "checkThreshold": 500
+  }
+}

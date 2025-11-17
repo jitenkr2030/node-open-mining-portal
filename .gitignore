@@ -1,0 +1,16 @@
+node_modules/
+logs/*.log
+.env
+config/pools/*.json
+!config/pools/*.example.json
+*.log
+.DS_Store
+dump.rdb
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

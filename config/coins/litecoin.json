@@ -1,0 +1,10 @@
+{
+  "name": "Litecoin",
+  "symbol": "LTC",
+  "algorithm": "scrypt",
+  "peerMagic": "fbc0b6db",
+  "peerMagicTestnet": "fcc1b7dc",
+  "blockTime": 150,
+  "blockReward": 12.5,
+  "txMessages": false
+}

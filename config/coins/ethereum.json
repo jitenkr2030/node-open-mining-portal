@@ -1,0 +1,8 @@
+{
+  "name": "Ethereum",
+  "symbol": "ETH",
+  "algorithm": "ethash",
+  "blockTime": 13,
+  "blockReward": 2,
+  "txMessages": false
+}

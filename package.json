@@ -1,0 +1,56 @@
+{
+  "name": "node-open-mining-portal-v2",
+  "version": "2.0.0",
+  "description": "Enterprise-grade cryptocurrency mining pool - fully modernized",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test tests/**/*.test.js",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write \"src/**/*.js\"",
+    "check": "npm run lint && npm run test"
+  },
+  "keywords": [
+    "mining",
+    "pool",
+    "stratum",
+    "cryptocurrency",
+    "bitcoin",
+    "litecoin",
+    "ethereum",
+    "monero",
+    "dogecoin",
+    "enterprise"
+  ],
+  "author": "MiniMax Agent",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "@redis/client": "^1.5.14",
+    "async": "^3.2.5",
+    "axios": "^1.6.5",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "joi": "^17.12.0",
+    "mysql2": "^3.9.1",
+    "node-cache": "^5.1.2",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.4"
+  }
+}

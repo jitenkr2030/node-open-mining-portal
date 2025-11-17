@@ -1,0 +1,8 @@
+{
+  "name": "Monero",
+  "symbol": "XMR",
+  "algorithm": "randomx",
+  "blockTime": 120,
+  "blockReward": 0.6,
+  "txMessages": false
+}

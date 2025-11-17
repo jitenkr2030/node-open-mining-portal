@@ -1,0 +1,11 @@
+{
+  "name": "IndiCoin",
+  "symbol": "IND",
+  "algorithm": "sha256",
+  "blockTime": 600,
+  "txfee": 0.0001,
+  "coinbaseValue": 5000000000,
+  "mposDiffMultiplier": 256,
+  "reward": "POW",
+  "confirmations": 120
+}
